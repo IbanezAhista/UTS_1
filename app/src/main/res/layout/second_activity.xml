@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_ios_new_24" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_iknip"
+        android:layout_toRightOf="@id/back" />
+
+    <ImageView
+        android:id="@+id/titik_tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_titik_tiga"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/ic_bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_bell"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageView
+        android:id="@+id/pp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/back"/>
+
+    <TextView
+        android:id="@+id/jumlah_postingan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6956"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/postingan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postingan"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/jumlah_pengikut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="27,7jt"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/pengikut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengikut"
+        android:textStyle="bold"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/jumlah_mengikuti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="219"
+        android:textStyle="bold"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/mengikuti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mengikuti"
+        android:textStyle="bold"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/pp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ikhwan Hanipp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/pp" />
+
+    <TextView
+        android:id="@+id/programmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programmer"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/nama" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You might not think that prorammers are artists, but programming is an extremely creative proffesion. It's logic-based creativity. - John Romero"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/programmer" />
+
+    <TextView
+        android:id="@+id/edit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit profil"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/bio" />
+
+    <TextView
+        android:id="@+id/bagikan_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagikan profil"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/bio" />
+
+    <ImageView
+        android:id="@+id/feed"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_feed"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/edit_profile"/>
+
+    <ImageView
+        android:id="@+id/ic_reels"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_reels"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="180dp"
+        android:layout_below="@id/edit_profile"/>
+
+    <ImageView
+        android:id="@+id/ic_tag"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_tag"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/edit_profile"/>
+
+    <ImageButton
+        android:id="@+id/btn_ic_home"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_home"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/feed"/>
+
+    <ImageView
+        android:id="@+id/ic_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_search"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="90dp"
+        android:layout_below="@id/feed"/>
+
+    <ImageView
+        android:id="@+id/ic_upload"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_upload"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="180dp"
+        android:layout_below="@id/feed"/>
+
+    <ImageView
+        android:id="@+id/ic_reels_1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_reels"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="270dp"
+        android:layout_below="@id/feed"/>
+
+    <ImageView
+        android:id="@+id/ic_profile"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_profile"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="360dp"
+        android:layout_below="@id/feed"/>
+
+</RelativeLayout>
